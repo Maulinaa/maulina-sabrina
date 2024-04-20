@@ -1,9 +1,10 @@
 package employee_test
 
 import (
+	"go-factorypattern-company-case/employee"
+
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"go-factorypattern-company-case/employee"
 )
 
 var _ = Describe("Employee", func() {
@@ -18,12 +19,7 @@ var _ = Describe("Employee", func() {
 			Expect(empl.GetSalary()).To(Equal(1000))
 		})
 
-		It("should return the correct bonus", func() {
-			// TODO Implement the test for the bonus
-			// Salary is 1000
-			// Bonus is 20% of the salary
-			// Bonus is 200
-		})
+		
 
 	})
 
