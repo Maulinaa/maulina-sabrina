@@ -24,5 +24,5 @@ func NewManager() *Manager {
 }
 
 func (m *Manager) GetBonus() float64 {
-	return float64(m.Salary * 1 / 20)
+	return float64(m.Salary * 1 / 5)
 }
